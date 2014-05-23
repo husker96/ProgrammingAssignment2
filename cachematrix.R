@@ -4,11 +4,11 @@
 ## or pulling it from the cache if available
 
 ## makeCacheMatrix is very similar to the makeVector example.  It takes a matrix as input and
-## creates a list containing 4 functions wich
+## returns a list containing 4 functions wich
 ## 1. set the value of the matrix
 ## 2. get the value of the matrix
-## 3. set the value of the 
-## 4. get the value of the mean
+## 3. set the value of the inverse
+## 4. get the value of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
